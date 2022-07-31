@@ -24,7 +24,7 @@ const Navbar = () => {
             <h2 title="DeliPat - Your Favourite Food Delivery Partner">
               <Link href="">
                 <a className="flex flex-col justify-center items-center gap-0">
-                  <MdOutlineDeliveryDining className="text-3xl text-orange-500" />
+                  <MdOutlineDeliveryDining className="text-4xl text-orange-500" />
                   <span className={`text-sm text-black font-semibold ${styles.brand} ${navOpen ? `${styles.open}` : ""}`}>DeliPat</span>
                 </a>
               </Link>
