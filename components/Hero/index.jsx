@@ -6,7 +6,7 @@ import { GiHamburger } from "react-icons/gi";
 
 const Hero = () => {
   return (
-    <div className="py-8 grid grid-cols-1 place-center gap-0 lg:grid-cols-2 lg:gap-10 md:py-32">
+    <div className="py-8 grid grid-cols-1 place-items-center gap-0 lg:grid-cols-2 lg:gap-10 md:py-32">
         <div className="mb-16 text-center lg:mb-0 lg:text-left">
             <h1 className="text-4xl font-bold leading-12 md:text-6xl">
                 Your Favourite Food <span className="text-red-500">Delivery</span> Partner.
