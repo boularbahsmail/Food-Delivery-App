@@ -24,7 +24,7 @@ const Navbar = () => {
             <h2 title="DeliPat - Your Favourite Food Delivery Partner">
               <Link href="">
                 <a className="flex flex-col justify-center items-center gap-0">
-                  <MdOutlineDeliveryDining className="text-4xl text-orange-500" />
+                  <MdOutlineDeliveryDining className="text-4xl text-red-500" />
                   <span className={`text-sm text-black font-semibold ${styles.brand} ${navOpen ? `${styles.open}` : ""}`}>DeliPat</span>
                 </a>
               </Link>
@@ -33,16 +33,16 @@ const Navbar = () => {
 
         <div>
           <ul className={`menu hidden absolute left-0 top-0 px-3 pb-6 pt-20 bg-black w-full sm:w-unst sm:bg-transparent sm:p-0 sm:static sm:flex sm:justify-center sm:items-center sm:gap-4 ${styles.menu} ${navOpen ? `${styles.open}` : ""}`}>
-            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-orange-500 w-max sm:mb-0 sm:text-black" title="Home" onClick={() => closeNav()}>
+            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-red-500 w-max sm:mb-0 sm:text-black" title="Home" onClick={() => closeNav()}>
               <Link href="">Home</Link>
             </li>
-            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-orange-500 w-max sm:mb-0 sm:text-black" title="About Us" onClick={() => closeNav()}>
+            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-red-500 w-max sm:mb-0 sm:text-black" title="About Us" onClick={() => closeNav()}>
               <Link href="">About Us</Link>
             </li>
-            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-orange-500 w-max sm:mb-0 sm:text-black" title="Menu" onClick={() => closeNav()}>
+            <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-red-500 w-max sm:mb-0 sm:text-black" title="Menu" onClick={() => closeNav()}>
               <Link href="">Menu</Link>
             </li>
-            <li className="text-white font-semibold ease-in-out duration-150 hover:text-orange-500 sm:text-black" title="Contact Us" onClick={() => closeNav()}>
+            <li className="text-white font-semibold ease-in-out duration-150 hover:text-red-500 sm:text-black" title="Contact Us" onClick={() => closeNav()}>
               <Link href="">Contact Us</Link>
             </li>
           </ul>
