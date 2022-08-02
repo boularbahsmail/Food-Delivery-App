@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import CustomersBanner from '../components/Customers-Banner';
 import FeaturedFood from '../components/Featured-Food';
+import ServicesBanner from "../components/Services-Banner";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <CustomersBanner />
         <FeaturedFood />
+        <ServicesBanner />
       </div>
     </div>
   )
