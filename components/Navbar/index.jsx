@@ -50,10 +50,7 @@ const Navbar = () => {
 
         <div>
           <Link href="">
-            <a title="Cart" className="relative">
-              <span className="absolute -top-2 right-2 bg-red-600 h-4 w-4 p-2 text-sm text-white rounded-xl flex justify-center items-center">
-                1
-              </span>
+            <a title="Cart">
               <BsCart3 className={`font-semibold text-xl text-gray-500 ${styles.cart} ${navOpen ? `${styles.open}` : ""}`} />
             </a>
           </Link>
