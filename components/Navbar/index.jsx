@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
 
         <div 
-            className={`z-50 flex flex-col justify-center items-center sm:hidden ${styles.hamburger} ${navOpen ? `${styles.open}` :  ""}`}
+            className={`z-50 flex flex-col justify-center items-center bg-gray-100 h-9 w-10 rounded-md sm:hidden ${styles.hamburger} ${navOpen ? `${styles.open}` :  ""}`}
             onClick={() => setNavbOpen(!navOpen)}>
           <span className="h-0.5 w-7 bg-black mb-1.5 ease-in-out duration-150"></span>
           <span className="h-0.5 w-7 bg-black mb-1.5 ease-in-out duration-150"></span>

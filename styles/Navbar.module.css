@@ -1,3 +1,7 @@
+.hamburger.open {
+    background-color: transparent;
+}
+
 .hamburger.open span {
     background-color: white;
 }
