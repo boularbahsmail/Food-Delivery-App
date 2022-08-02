@@ -35,7 +35,7 @@ const FeaturedFood = () => {
                             <span>${food.price}</span>
                           </h3>
                           <p className="text-sm text-gray-400 mb-2">{food.description}</p>
-                          <span className="text-yellow-600 flex items-center gap-1">
+                          <span className="text-xl text-yellow-600 flex items-center gap-1">
                           {
                             Array.from({ length: food.rating }).map((_, index) => (
                               <MdStar key={index}/>
