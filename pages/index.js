@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import CustomersBanner from '../components/Customers-Banner';
 import FeaturedFood from '../components/Featured-Food';
 import ServicesBanner from "../components/Services-Banner";
+import AboutUsBanner from "../components/AboutUs-Banner";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <CustomersBanner />
         <FeaturedFood />
         <ServicesBanner />
+        <AboutUsBanner />
       </div>
     </div>
   )
