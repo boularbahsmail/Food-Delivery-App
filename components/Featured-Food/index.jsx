@@ -23,9 +23,9 @@ const FeaturedFood = () => {
           {
             foods ? 
               foods.map((food, index) =>
-                <Link href="">
-                  <a>
-                    <div key={index} className="card bg-green-500 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
+                <div key={index} className="card bg-green-500 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
+                  <Link href="">
+                    <a>
                       <div className="relative">
                         <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" />
                         <div className="info absolute left-0 bottom-0 bg-gray-900 p-3 pb-4 ease-in-out duration-150 opacity-0">
@@ -33,12 +33,12 @@ const FeaturedFood = () => {
                             <span>{food.title}</span>
                             <span>${food.price}</span>
                           </h3>
-                          <p className="text-sm text-gray-500">{food.description}</p>
+                          <p className="text-sm text-gray-400">{food.description}</p>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                </Link>
+                    </a>
+                  </Link>
+                </div>
               )
             : null
           }

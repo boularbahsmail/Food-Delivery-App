@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="description" content="Responsive, clean and open source food delivery app using Next.js & Tailwind CSS." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="p-3 max-w-6xl m-auto">
+      <div className="p-3 max-w-7xl m-auto">
         <Navbar />
         <Hero />
         <CustomersBanner />
