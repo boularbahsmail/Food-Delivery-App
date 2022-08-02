@@ -9,7 +9,10 @@ const ServicesBanner = () => {
             </div>
 
             <div className="text-center lg:mb-0 lg:text-left">
-                <h1 className="text-4xl font-bold leading-12 md:text-5xl">
+                <span className="uppercase font-semibold text-red-500 text-md">
+                    Food Delivery
+                </span>
+                <h1 className="text-4xl font-bold leading-12 mt-4 md:text-5xl">
                     Best Services to fulfuill your expectatios.
                 </h1>
                 <p className="my-6 text-gray-600 leading-8">
