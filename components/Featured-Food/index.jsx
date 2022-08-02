@@ -27,9 +27,9 @@ const FeaturedFood = () => {
                   <Link href="">
                     <a>
                       <div className="relative">
-                        <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" />
-                        <div className="info absolute left-0 bottom-0 bg-gray-900 p-3 pb-4 ease-in-out duration-150 opacity-0">
-                          <h3 className="flex justify-between items-center text-xl font-semibold mb-1 text-white">
+                        <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" className="meal-img ease-in-out duration-300" />
+                        <div className="info absolute left-0 bottom-0 bg-gray-900 p-3 pb-4 ease-in-out duration-300 opacity-0">
+                          <h3 className="flex justify-between items-center text-xl font-semibold mb-2 text-white">
                             <span>{food.title}</span>
                             <span>${food.price}</span>
                           </h3>

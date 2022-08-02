@@ -34,6 +34,11 @@ a {
   opacity: 1;
 }
 
+.card:hover
+.meal-img {
+  transform: scale(1.07);
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
