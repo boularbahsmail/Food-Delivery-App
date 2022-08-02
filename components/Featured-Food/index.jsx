@@ -3,6 +3,7 @@ import Link from "next/link";
 
 // React Icons
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { MdStar } from "react-icons/md";
 
 // Featured Food Data
 import foods from './data/data.js';
@@ -29,11 +30,18 @@ const FeaturedFood = () => {
                       <div className="relative">
                         <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" className="meal-img ease-in-out duration-300" />
                         <div className="info absolute left-0 bottom-0 bg-gray-900 p-3 pb-4 ease-in-out duration-300 opacity-0">
-                          <h3 className="flex justify-between items-center text-xl font-semibold mb-2 text-white">
+                          <h3 className="flex justify-between items-center text-xl font-semibold mb-1 text-white">
                             <span>{food.title}</span>
                             <span>${food.price}</span>
                           </h3>
-                          <p className="text-sm text-gray-400">{food.description}</p>
+                          <p className="text-sm text-gray-400 mb-2">{food.description}</p>
+                          <span className="text-yellow-600 flex items-center gap-1">
+                          {
+                            Array.from({ length: food.rating }).map((_, index) => (
+                              <MdStar key={index}/>
+                            ))
+                          }
+                          </span>
                         </div>
                       </div>
                     </a>
