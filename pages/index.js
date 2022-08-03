@@ -8,6 +8,8 @@ import CustomersBanner from '../components/Customers-Banner';
 import FeaturedFood from '../components/Featured-Food';
 import ServicesBanner from "../components/Services-Banner";
 import AboutUsBanner from "../components/AboutUs-Banner";
+import Subscription from "../components/Subscription";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
         <FeaturedFood />
         <ServicesBanner />
         <AboutUsBanner />
+        <Subscription />
+        <Footer />
       </div>
     </div>
   )
