@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Subscription = () => {
     return (
-        <div className="py-14 px-4 mt-0 grid grid-cols-1 place-items-center gap-0 lg:grid-cols-2 mt-32">
+        <div className="py-10 px-4 mt-0 grid grid-cols-1 place-items-center gap-0 lg:grid-cols-2 md:mt-32">
             <div className="mb-16 lg:mb-0">
                 <img src="./personal_email.svg" alt="Personal-Email" width="400px" max-width="100%" />
             </div>
