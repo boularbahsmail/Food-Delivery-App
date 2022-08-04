@@ -11,7 +11,13 @@ import AboutUsBanner from "../components/AboutUs-Banner";
 import Subscription from "../components/Subscription";
 import Footer from "../components/Footer";
 
+// Scroll To Top Hook
+import useScrollTop from '../Hooks/useScrollTop';
+
 export default function Home() {
+
+  useScrollTop();
+  
   return (
     <div>
       <Head>
