@@ -13,7 +13,7 @@ import useScrollTop from '../../hooks/useScrollTop';
 import foods from '../../components/Featured-Food/data/data.js';
 
 // Menu's
-import menus from './data/data.js';
+import menus from '../../components/Menus-Data/data.js';
 
 // React Icons
 import { MdStar } from "react-icons/md";
@@ -79,7 +79,7 @@ export default function Menu() {
             </div>
             <hr />
             <h1 className="mt-8 text-3xl font-bold text-black text-center sm:text-left sm:text-4xl">
-                Full Menu`s
+                Full Menu&lsquo;s
             </h1>
             <p className="my-5 text-gray-600 text-md leading-9 text-justify sm:text-left">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
