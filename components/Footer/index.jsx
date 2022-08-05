@@ -14,14 +14,14 @@ const Footer = () => {
             <div className="mt-20 mb-12 grid place-items-center grid-cols-1 gap-4 lg:grid-cols-4 md:grid-cols-2 sm:mt-32">
                 <div className="text-center md:text-left">
                     <h2 title="DeliPat - Your Favourite Food Delivery Partner">
-                        <Link href="">
+                        <Link href="/">
                             <a className="flex flex-col justify-center items-center gap-0 w-max m-auto md:m-0">
                                 <MdOutlineDeliveryDining className="text-5xl text-red-500" />
                                 <span className="text-xl text-black font-semibold">DeliPat</span>
                             </a>
                         </Link>
                     </h2>
-                    <p className="my-6 text-gray-600 text-sm leading-8">
+                    <p className="my-6 text-gray-600 text-sm text-justify sm:text-center md:text-left leading-8">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         This last been the industrys standard dummy text ever since the 1500s,
                     </p>
@@ -34,7 +34,7 @@ const Footer = () => {
                     <h2 className="font-semibold text-md">Quick Links</h2>
                     <ul className="mt-4">
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Home">
-                            <Link href="">Home</Link>
+                            <Link href="/">Home</Link>
                         </li>
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Featured Food">
                             <Link href="">Featured Food</Link>
