@@ -7,7 +7,7 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
 // Scroll To Top Hook
-import useScrollTop from '../../hooks/useScrollTop';
+import useScrollTop from '../../Hooks/useScrollTop';
 
 // Featured Food
 import foods from '../../components/Featured-Food/data/data.js';
