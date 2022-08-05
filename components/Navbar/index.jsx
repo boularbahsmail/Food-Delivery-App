@@ -40,7 +40,7 @@ const Navbar = () => {
               <Link href="/about-us">About Us</Link>
             </li>
             <li className="text-white mb-3 font-semibold ease-in-out duration-150 hover:text-red-500 w-max sm:mb-0 sm:text-black" title="Menu" onClick={() => closeNav()}>
-              <Link href="">Menu</Link>
+              <Link href="/menu">Menu</Link>
             </li>
             <li className="text-white font-semibold ease-in-out duration-150 hover:text-red-500 sm:text-black" title="Contact Us" onClick={() => closeNav()}>
               <Link href="">Contact Us</Link>

@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
 // Scroll To Top Hook
-import useScrollTop from '../../Hooks/useScrollTop';
+import useScrollTop from '../../hooks/useScrollTop';
 
 export default function About() {
 
@@ -22,7 +22,7 @@ export default function About() {
       <div className="p-3 max-w-7xl m-auto">
         <Navbar />
         <div>
-            <div className="about-us-title-banner my-6 py-24 bg-red-500 text-center rounded-lg sm:my-10">
+            <div className="title-banner my-6 py-24 bg-red-500 text-center rounded-lg sm:my-10">
                 <h1 className="text-3xl font-bold text-white mx-6 md:text-5xl sm:text-4xl">
                     A Strong Services Providing
                 </h1>

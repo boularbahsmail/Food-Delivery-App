@@ -10,10 +10,10 @@ import foods from './data/data.js';
 
 const FeaturedFood = () => {
   return (
-    <div className="my-24">
+    <div className="mb-24 mt-16 pt-10" id="featured-food">
         <div className="flex flex-col justify-center items-center gap-3 sm:flex-row sm:justify-between sm:gap-0">
             <h1 className="text-3xl font-bold sm:text-4xl">Our Featured Food</h1>
-            <Link href="">
+            <Link href="/menu">
                 <a className="flex justify-center items-center gap-2 text-red-500" title="See All">
                   <span>See all Food</span>
                   <HiOutlineArrowNarrowRight />
@@ -24,7 +24,7 @@ const FeaturedFood = () => {
           {
             foods ? 
               foods.map((food, index) =>
-                <div key={index} className="card bg-green-500 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
+                <div key={index} className="card bg-gray-200 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
                   <Link href="">
                     <a>
                       <div className="relative">
@@ -52,7 +52,7 @@ const FeaturedFood = () => {
           }
         </div>
         <div className="flex justify-center items-center">
-          <Link href="">
+          <Link href="/menu">
             <a className="flex justify-center items-center gap-2 text-red-500 font-semibold bg-white w-max m-auto py-2 px-4 border border-red-500 ease-in-out duration-150 hover:bg-red-500 hover:text-white rounded-md md:py-3 md:px-6" title="See All">
               <span>See all Food</span>
               <HiOutlineArrowNarrowRight />

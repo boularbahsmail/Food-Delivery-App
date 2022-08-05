@@ -37,10 +37,10 @@ const Footer = () => {
                             <Link href="/">Home</Link>
                         </li>
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Featured Food">
-                            <Link href="">Featured Food</Link>
+                            <Link href="#featured-food">Featured Food</Link>
                         </li>
                         <li className="text-sm font-semibold text-gray-600" title="Menu">
-                            <Link href="">Menu</Link>
+                            <Link href="/menu">Menu</Link>
                         </li>
                     </ul>
                 </div>

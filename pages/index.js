@@ -12,7 +12,7 @@ import Subscription from "../components/Subscription";
 import Footer from "../components/Footer";
 
 // Scroll To Top Hook
-import useScrollTop from '../Hooks/useScrollTop';
+import useScrollTop from '../hooks/useScrollTop';
 
 export default function Home() {
 
