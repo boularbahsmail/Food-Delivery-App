@@ -7,6 +7,9 @@ Responsive, clean and open source food delivery app (Next.js & Tailwind CSS vers
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Website Screenshot
+<img src="./DeliPat-Your-Favourite-Food-Delivery-Partner.png" alt="Food-Delivery-App-Screenshot" />
+
 ## Install Dependencies:
 First install the needed dependencies:
 ```bash
