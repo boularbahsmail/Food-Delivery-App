@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="text-center mb-4 lg:text-left lg:mb-0">
                     <h2 className="font-semibold text-md">Quick Links</h2>
                     <ul className="mt-4">
-                        <li className="text-sm mb-4 font-semibold text-gray-600" title="Home">
+                        <li className="text-sm mb-4 font-semibold text-gray-600" title="About Us">
                             <Link href="/about-us">About Us</Link>
                         </li>
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Menu">
