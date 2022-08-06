@@ -36,11 +36,11 @@ const Footer = () => {
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Home">
                             <Link href="/">Home</Link>
                         </li>
-                        <li className="text-sm mb-4 font-semibold text-gray-600" title="Featured Food">
-                            <Link href="#featured-food">Featured Food</Link>
-                        </li>
-                        <li className="text-sm font-semibold text-gray-600" title="Menu">
+                        <li className="text-sm mb-4 font-semibold text-gray-600" title="Menu">
                             <Link href="/menu">Menu</Link>
+                        </li>
+                        <li className="text-sm font-semibold text-gray-600" title="Contact Us">
+                            <Link href="/contact-us">Contact Us</Link>
                         </li>
                     </ul>
                 </div>

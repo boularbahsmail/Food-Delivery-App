@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+// React Icons
+import { BiSend } from "react-icons/bi";
+
 const Subscription = () => {
     return (
         <div className="py-10 px-4 mt-0 grid grid-cols-1 place-items-center gap-0 lg:grid-cols-2 md:mt-32">
@@ -17,10 +20,11 @@ const Subscription = () => {
                     This last been the industrys standard dummy text ever since the 1500s,
                 </p>
                 <div className="flex flex-col justify-start items-center gap-2 max-w-xl w-100 m-auto lg:m-0 md:flex-row">
-                    <input type="email" placeholder="Your_email@example.com" className="border border-gray-400 text-md font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-2 px-4 md:py-3 md:px-4 md:mb-0 focus:border-red-500" />
+                    <input type="email" placeholder="boularbahismail01@gmail.com" className="border border-gray-300 text-sm font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-3 px-4 md:py-3 md:px-4 md:mb-0 focus:border-red-500" />
                     <Link href="">
-                        <a className="w-full flex justify-center items-center gap-2 w-max m-auto py-2 px-4 bg-red-500 text-white font-bold border border-red-500 rounded-md ease-in-out duration-150 s00hadow-slate-6 hover:bg-white hover:text-red-500 lg:m-0 md:py-3 md:px-6 md:w-20" title="Subscribe">
-                            Submit
+                        <a className="w-full flex justify-center items-center gap-2 m-auto py-3 px-4 bg-red-500 text-white text-sm font-bold border border-red-500 rounded-md ease-in-out duration-150 s00hadow-slate-6 hover:bg-white hover:text-red-500 lg:m-0 md:w-max md:px-6 md:w-20" title="Subscribe">
+                            <span>Send</span>
+                            <BiSend />
                         </a>
                     </Link>
                 </div>

@@ -10,7 +10,7 @@ import foods from './data/data.js';
 
 const FeaturedFood = () => {
   return (
-    <div className="mb-24 mt-16 pt-10" id="featured-food">
+    <div className="mb-24 mt-16 pt-10">
         <div className="flex flex-col justify-center items-center gap-3 sm:flex-row sm:justify-between sm:gap-0">
             <h1 className="text-3xl font-bold sm:text-4xl">Our Featured Food</h1>
             <Link href="/menu">
