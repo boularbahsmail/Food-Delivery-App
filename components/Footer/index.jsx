@@ -34,7 +34,7 @@ const Footer = () => {
                     <h2 className="font-semibold text-md">Quick Links</h2>
                     <ul className="mt-4">
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Home">
-                            <Link href="/">Home</Link>
+                            <Link href="/about-us">About Us</Link>
                         </li>
                         <li className="text-sm mb-4 font-semibold text-gray-600" title="Menu">
                             <Link href="/menu">Menu</Link>
