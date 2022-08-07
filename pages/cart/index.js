@@ -46,7 +46,7 @@ export default function Cart() {
                             <img src={product.image_url} alt="Food-Image" max-height="200px" width="100%" className="ease-in-out duration-300" />
                             <div className="bg-white p-4 px-3 pb-4 ease-in-out duration-300">
                               <h3 className="mb-1">
-                                  <Link href="">
+                                  <Link href={`/${food.route}`}>
                                     <a className="flex justify-between items-center text-xl font-semibold text-black">
                                       <span>{product.title}</span>
                                       <span>${product.price}</span>
