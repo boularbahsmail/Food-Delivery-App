@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 // Components
 import Navbar from '../../components/Navbar';
@@ -44,9 +45,13 @@ export default function Cart() {
                         <div className="">
                             <img src={product.image_url} alt="Food-Image" max-height="200px" width="100%" className="ease-in-out duration-300" />
                             <div className="bg-white p-4 px-3 pb-4 ease-in-out duration-300">
-                              <h3 className="flex justify-between items-center text-xl font-semibold mb-1 text-black">
-                                  <span>{product.title}</span>
-                                  <span>${product.price}</span>
+                              <h3 className="mb-1">
+                                  <Link href="">
+                                    <a className="flex justify-between items-center text-xl font-semibold text-black">
+                                      <span>{product.title}</span>
+                                      <span>${product.price}</span>
+                                    </a>
+                                  </Link>
                               </h3>
                               <p className="text-sm text-gray-400 mb-2">{product.description}</p>
                               <span className="text-xl text-yellow-600 flex items-center gap-1">
