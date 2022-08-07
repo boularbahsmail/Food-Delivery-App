@@ -30,7 +30,7 @@ const FeaturedFood = () => {
                       <MdOutlineAddShoppingCart />
                     </button>
                   </div>
-                  <Link href="">
+                  <Link href={`/${food.route}`}>
                     <a>
                       <div className="relative">
                         <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" className="meal-img ease-in-out duration-300" />
@@ -41,11 +41,11 @@ const FeaturedFood = () => {
                           </h3>
                           <p className="text-sm text-gray-400 mb-2">{food.description}</p>
                           <span className="text-xl text-yellow-600 flex items-center gap-1">
-                          {
-                            Array.from({ length: food.rating }).map((_, index) => (
-                              <MdStar key={index}/>
-                            ))
-                          }
+                            {
+                              Array.from({ length: food.rating }).map((_, index) => (
+                                <MdStar key={index}/>
+                              ))
+                            }
                           </span>
                         </div>
                       </div>

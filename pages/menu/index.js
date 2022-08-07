@@ -56,7 +56,7 @@ export default function Menu() {
                               <MdOutlineAddShoppingCart />
                             </button>
                         </div>
-                        <Link href="">
+                        <Link href={`/${food.route}`}>
                             <a>
                             <div className="relative">
                                 <img src={food.image_url} alt="Food-Image" max-height="200px" width="100%" className="meal-img ease-in-out duration-300" />
