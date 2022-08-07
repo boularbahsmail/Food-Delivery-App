@@ -4,7 +4,7 @@ const data = [
         title: "Moroccan Tajine",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image_url: "https://bit.ly/3vH011x",
-        price: "175",
+        price: 175,
         rating: 5
     },
     {
@@ -12,7 +12,7 @@ const data = [
         title: "Fruits dessert",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image_url: "https://bit.ly/3bEHHPE",
-        price: "115",
+        price: 115,
         rating: 3
     },
     {
@@ -20,7 +20,7 @@ const data = [
         title: "Asian Sushi & Fruits",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image_url: "https://bit.ly/3Qrgyi9",
-        price: "122",
+        price: 122,
         rating: 4
     },
     {
@@ -28,7 +28,7 @@ const data = [
         title: "Barbicue & Soda",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image_url: "https://bit.ly/3zYAqne",
-        price: "140",
+        price: 140,
         rating: 5
     }
 ];

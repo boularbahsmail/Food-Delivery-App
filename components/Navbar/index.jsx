@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <Link href="">
+          <Link href="/cart">
             <a title="Cart">
               <BsCart3 className={`font-semibold text-xl text-black ${styles.cart} ${navOpen ? `${styles.open}` : ""}`} />
             </a>
