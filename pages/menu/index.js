@@ -16,7 +16,7 @@ import foods from '../../components/Featured-Food/data/data.js';
 import menus from '../../components/Menus-Data/data.js';
 
 // React Icons
-import { MdStar } from "react-icons/md";
+import { MdStar, MdOutlineAddShoppingCart } from "react-icons/md";
 
 export default function Menu() {
 
@@ -50,7 +50,12 @@ export default function Menu() {
                 {
                     foods ? 
                     foods.map((food, index) =>
-                        <div key={index} className="card bg-gray-200 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
+                        <div key={index} className="card relative bg-gray-200 rounded-xl overflow-hidden shadow-slate-900" title={food.title}>
+                        <div className="absolute top-3 right-0 px-3 z-50">
+                            <button className="bg-white text-gray-900 text-xl h-10 w-10 flex justify-center items-center rounded-md font-normal active:scale-95" title="Add To Cart">
+                              <MdOutlineAddShoppingCart />
+                            </button>
+                        </div>
                         <Link href="">
                             <a>
                             <div className="relative">

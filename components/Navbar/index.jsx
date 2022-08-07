@@ -3,8 +3,7 @@ import Link from "next/link";
 import styles from "../../styles/Navbar.module.css";
 
 // React Icons
-import { MdOutlineDeliveryDining } from "react-icons/md";
-import { BsCart3 } from "react-icons/bs";
+import { MdOutlineDeliveryDining, MdOutlineShoppingCart } from "react-icons/md";
 
 const Navbar = () => {
   const [navOpen, setNavbOpen] = useState(false);
@@ -51,7 +50,7 @@ const Navbar = () => {
         <div>
           <Link href="/cart">
             <a title="Cart">
-              <BsCart3 className={`font-semibold text-xl text-black ${styles.cart} ${navOpen ? `${styles.open}` : ""}`} />
+              <MdOutlineShoppingCart className={`font-semibold text-xl text-black ${styles.cart} ${navOpen ? `${styles.open}` : ""}`} />
             </a>
           </Link>
         </div>
