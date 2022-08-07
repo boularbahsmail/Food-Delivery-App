@@ -44,7 +44,7 @@ export default function Cart() {
                         <div className="">
                             <img src={product.image_url} alt="Food-Image" max-height="200px" width="100%" className="ease-in-out duration-300" />
                             <div className="bg-white p-4 px-3 pb-4 ease-in-out duration-300">
-                              <h3 className="flex justify-between items-center text-xl font-semibold mb-1 text-red-500">
+                              <h3 className="flex justify-between items-center text-xl font-semibold mb-1 text-black">
                                   <span>{product.title}</span>
                                   <span>${product.price}</span>
                               </h3>
@@ -57,10 +57,10 @@ export default function Cart() {
                                 }
                               </span>
                               <div className="absolute top-3 left-0 right-0 px-3 flex justify-between items-center gap-2 w-full">
-                                  <button className="bg-red-500 text-white text-xl h-10 w-10 flex justify-center items-center rounded-md font-normal active:scale-95" title="Decrease">
+                                  <button className="bg-white text-gray-900 text-xl h-10 w-10 flex justify-center items-center rounded-md font-normal active:scale-95" title="Decrease">
                                     <BiMinus />
                                   </button>
-                                  <button className="bg-red-500 text-white text-xl h-10 w-10 flex justify-center items-center rounded-md font-normal active:scale-95" title="Increase">
+                                  <button className="bg-white text-gray-900 text-xl h-10 w-10 flex justify-center items-center rounded-md font-normal active:scale-95" title="Increase">
                                     <BiPlus />
                                   </button>
                               </div>
