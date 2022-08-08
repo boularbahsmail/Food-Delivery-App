@@ -6,7 +6,7 @@ const data = [
         image_url: "https://bit.ly/3Q8kVyo",
         price: 22,
         rating: 5,
-        route: "perfect-burger
+        route: "perfect-burger"
     }
 ];
 
